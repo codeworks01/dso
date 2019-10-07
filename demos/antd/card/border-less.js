@@ -1,7 +1,7 @@
 import { Card } from 'antd';
 
 const Component = () => (
-  <Card title="Card title" bordered={false}>
+  <Card title="Tekton" bordered={false}>
     <p>Card content</p>
     <p>Card content</p>
     <p>Card content</p>

@@ -1,11 +1,5 @@
-import { Card } from 'antd';
+import Topology from '../../components/Topology';
 
-const Component = () => (
-  <Card title="Topology" extra={<a href="#">More</a>}>
-    <p>Card content</p>
-    <p>Card content</p>
-    <p>Card content</p>
-  </Card>
-);
+const TopologyPage = () => <Topology />;
 
-export default Component;
+export default TopologyPage;

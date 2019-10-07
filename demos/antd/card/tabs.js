@@ -32,7 +32,21 @@ const tabListNoTitle = [
 ];
 
 const contentListNoTitle = {
-  article: <p>article content</p>,
+  article: `<p>Developer docs
+  This document is aimed at helping maintainers/developers of project understand the complexity.
+  
+  How are resources shared between tasks
+  PipelineRun uses PVC to share resources between tasks. PVC volume is mounted on path /pvc by PipelineRun.
+  
+  If a resource in a task is declared as output then the TaskRun controller adds a step to copy each output resource to the directory path /pvc/task_name/resource_name.
+  
+  If an input resource includes from condition then the TaskRun controller adds a step to copy from PVC directory path: /pvc/previous_task/resource_name.
+  
+  Another alternatives is to use a GCS storage bucket to share the artifacts. This can be configured using a ConfigMap with the name config-artifact-bucket with the following attributes:
+  
+  location: the address of the bucket (for example gs://mybucket)
+  bucket.service.account.secret.name: the name of the secret that will contain the credentials for the service account with access to the bucket
+  bucket.service.account.secret.key: the key in the secret with the required service account json. The bucket is recommended to be configured with a retention policy after which files will be deleted.</p>`,
   app: <p>app content</p>,
   project: <p>project content</p>
 };
@@ -51,7 +65,7 @@ class TabsCard extends React.Component {
   render() {
     return (
       <div>
-        <Card
+        {/* <Card
           style={{ width: '100%' }}
           title="Card title"
           extra={<a href="#">More</a>}
@@ -62,7 +76,7 @@ class TabsCard extends React.Component {
           }}
         >
           {contentList[this.state.key]}
-        </Card>
+        </Card> */}
         <br />
         <br />
         <Card

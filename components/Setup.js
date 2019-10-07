@@ -1,6 +1,6 @@
 import { Card, Col, Row, Switch } from 'antd';
 
-import MockPricing from '../demos/mock/pricing';
+import SetupPricing from '../data/setup';
 import PricingTable from './shared/Pricing';
 import { useState } from 'react';
 
@@ -15,12 +15,12 @@ const Setup = () => {
             display: block;
           `}
         >
-          Simple, predictable pricing.
+          Choose the Best Pipeline for Your Organization.
         </h1>
         <h6>
-          Get started with the free tier and upgrade anytime, commitment free.
+          Manage the setup, operations, an maintenance of DevSecOps Pipelines.
         </h6>
-        <p>
+        {/* <p>
           Monthly&nbsp;
           <Switch
             checked={!!annual}
@@ -28,7 +28,7 @@ const Setup = () => {
             className="mx-1"
           />
           &nbsp;Yearly <small className="text-success">Save 10%</small>
-        </p>
+        </p> */}
       </div>
 
       <Card
@@ -37,9 +37,9 @@ const Setup = () => {
         bodyStyle={{ padding: 0 }}
       >
         <Row type="flex" justify="space-around" gutter={0}>
-          {MockPricing.map((item, index) => (
+          {SetupPricing.map((item, index) => (
             <Col
-              className={` ${MockPricing.length - 1 !== index ? '' : ''}`}
+              className={` ${SetupPricing.length - 1 !== index ? '' : ''}`}
               key={index}
               xl={6}
               md={12}

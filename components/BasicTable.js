@@ -45,7 +45,7 @@ const columns = [
     key: 'action',
     render: (text, record) => (
       <span>
-        <a href="javascript:;">Invite {record.name}</a>
+        <a href="javascript:;">{record.name} <Divider type="vertical" /> Restart</a>
         <Divider type="vertical" />
         <a href="javascript:;">Delete</a>
       </span>

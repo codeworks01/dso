@@ -1,11 +1,5 @@
-import { Card } from 'antd';
+import Tekton from '../../components/Tekton';
 
-const Component = () => (
-  <Card title="Tekton" extra={<a href="#">More</a>}>
-    <p>Card content</p>
-    <p>Card content</p>
-    <p>Card content</p>
-  </Card>
-);
+const TektonPage = () => <Tekton />;
 
-export default Component;
+export default TektonPage;

@@ -406,11 +406,11 @@ const Overview = () => {
       </Row>
 
       <Row gutter={16}>
-        <Col md={24} lg={12}>
+        {/* <Col md={24} lg={12}>
           <WeatherCard city="harare" country="zw" days={7} />
-        </Col>
+        </Col> */}
 
-        <Col md={24} lg={12}>
+        {/* <Col md={24} lg={12}>
           <PostCard
             title="Shrimp and Chorizo Paella"
             subtitle="Yesterday"
@@ -422,7 +422,7 @@ const Overview = () => {
             imageHeight={309}
             text="HOME!!! and Aouda went on board, where they found Fix already installed. Below deck was a square cabin, of which the walls bulged out in the form of cots, above a circular divan; in the centre was a table provided with a swinging lamp."
           />
-        </Col>
+        </Col> */}
       </Row>
     </div>
   );

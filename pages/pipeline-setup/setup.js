@@ -1,5 +1,5 @@
-import Pricing from '../../components/Pricing';
+import Setup from '../../components/Setup';
 
-const SetupPage = () => <Pricing />;
+const SetupPage = () => <Setup />;
 
 export default SetupPage;
