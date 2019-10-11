@@ -88,15 +88,15 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/FlexibleContent.js":
-/*!***************************************!*\
-  !*** ./components/FlexibleContent.js ***!
-  \***************************************/
+/***/ "./components/FlexTekton.js":
+/*!**********************************!*\
+  !*** ./components/FlexTekton.js ***!
+  \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -107,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "/Users/dischord01/Dropbox/Codeworks/elements-one-kube/template/components/FlexibleContent.js";
+var _jsxFileName = "/Users/dischord01/Dropbox/Codeworks/elements-one-kube/template/components/FlexTekton.js";
 
 var Meta = antd_lib_card__WEBPACK_IMPORTED_MODULE_0___default.a.Meta;
 
@@ -389,7 +389,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _FlexibleContent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FlexibleContent */ "./components/FlexibleContent.js");
+/* harmony import */ var _FlexTekton__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FlexTekton */ "./components/FlexTekton.js");
 /* harmony import */ var _Tabs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Tabs */ "./components/Tabs.js");
 
 
@@ -455,7 +455,7 @@ var Tekton = function Tekton() {
       lineNumber: 17
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_FlexibleContent__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_FlexTekton__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -1042,7 +1042,7 @@ var TektonPage = function TektonPage() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 7:
 /*!**********************************************!*\
   !*** multi ./pages/pipeline-setup/tekton.js ***!
   \**********************************************/

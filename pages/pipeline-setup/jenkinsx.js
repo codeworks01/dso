@@ -1,11 +1,5 @@
-import { Card } from 'antd';
+import JenkinsX from '../../components/JenkinsX';
 
-const Component = () => (
-  <Card title="JenkinsX" extra={<a href="#">More</a>}>
-    <p>Card content</p>
-    <p>Card content</p>
-    <p>Card content</p>
-  </Card>
-);
+const JenkinsXPage = () => <JenkinsX />;
 
-export default Component;
+export default JenkinsXPage;

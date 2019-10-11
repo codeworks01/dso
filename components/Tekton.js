@@ -1,7 +1,7 @@
 import { Card, Col, Divider, Row, Switch } from 'antd';
 
 // TODO move from demo into own folder structure
-import FlexibleContent from './FlexibleContent';
+import FlexibleContent from './FlexTekton';
 import Tabs from './Tabs';
 import { useState } from 'react';
 
