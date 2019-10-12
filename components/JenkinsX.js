@@ -17,9 +17,9 @@ const Jenkins = () => {
             <div className="p-4">
               <FlexibleContent />
             </div>
-            <Card title="Jenkins" bordered={false}>
-              <p>The Jenkins Pipelines project provides k8s-style resources for declaring CI/CD-style pipelines.</p>
-              <p>Jenkins Pipelines are Cloud Native:</p>
+            <Card title="JenkinsX" bordered={false}>
+              <p>The Jenkins X Pipelines project provides k8s-style resources for declaring CI/CD-style pipelines.</p>
+              <p>Jenkins X Pipelines are Cloud Native:</p>
               <ul>
                 <li>Run on Kubernetes</li>
                 <li>Have Kubernetes clusters as a first class type</li>
